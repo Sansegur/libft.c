@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 11:34:49 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/23 16:51:34 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/01/31 17:23:27 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,10 @@ void	*ft_memchr(const void *str, int c, size_t n)
 /*
 int	main(void)
 {
-	printf("%s\n", (unsigned char *)ft_memchr("Barcelona", 'a', 4));
-	printf("%s\n", (unsigned char *)ft_memchr("Barcelona", 'n', 8));
-	printf("%s\n", (unsigned char *)ft_memchr("Barcelona", 'p', 8));
+	printf("%s\n", (char *)ft_memchr("Barcelona", 'a', 9));
+	printf("%s\n", (char *)ft_memchr("Barcelona", 'n', 9));
+	printf("%s\n", (char *)ft_memchr("Barcelona", 'p', 9));
 	return (0);
 }
 */
+

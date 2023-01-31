@@ -6,7 +6,7 @@
 #    By: sansegur <sansegur@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 20:08:02 by sansegur          #+#    #+#              #
-#    Updated: 2023/01/27 20:45:47 by sansegur         ###   ########.fr        #
+#    Updated: 2023/01/31 17:19:32 by sansegur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,8 @@ SRCS	=	ft_isalpha.c \
 		ft_memchr.c \
 		ft_bzero.c \
 		ft_memcpy.c \
-		ft_memcmp.c	
+		ft_memcmp.c \
+		ft_memmove.c	
 OBJS	=	$(SRCS:.c=.o)
 INCDIR	=	-I ./
 RM	=	rm -f
