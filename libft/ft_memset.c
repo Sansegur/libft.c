@@ -6,12 +6,10 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 20:25:53 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/27 17:07:56 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/03 17:07:53 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// rellena una zona de memoria con bites repetidos
-// rellena el len (largo,6) que le digo en la memoria apuntada por *b con c (^)
 #include "libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
@@ -23,12 +21,3 @@ void	*ft_memset(void *b, int c, size_t len)
 		*tmp ++ = c;
 	return (b);
 }
-/*
-int	main(void)
-{
-	char	str[] = "Estoy cansada";
-
-	printf("%s\n", ft_memset(str, '^', 6));
-	return (0);
-}
-*/

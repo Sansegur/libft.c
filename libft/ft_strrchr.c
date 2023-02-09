@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 16:43:43 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/22 18:26:24 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/02 19:06:19 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strrchr(const char *str, int c)
 /*
 int	main(void)
 {
-	printf("%s\n", ft_strrchr("hola mundo", 'o'));
+	printf("%s\n", ft_strrchr("hola mundo", 'n'));
 	return (0);
 }
 */

@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 13:59:28 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/27 19:26:52 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/03 17:10:22 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ void	ft_bzero(void *s, size_t n)
 	while (n--)
 		*tmp++ = '\0';
 }
-/*
-int	main(void)
-{
-	char	str[] = "casa0fty";
-
-	printf("%s\n", ft_bzero(str, 8);
-	return (0);		
-}
-*/
