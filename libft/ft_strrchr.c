@@ -6,12 +6,10 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 16:43:43 by sansegur          #+#    #+#             */
-/*   Updated: 2023/02/02 19:06:19 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/11 18:55:07 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// recorre el str hasta el final (= que ft_strlen.c)
-// en reverse busca c y si esta lo printea, y si no devuelve NULL
 #include "libft.h"
 
 char	*ft_strrchr(const char *str, int c)
@@ -32,7 +30,7 @@ char	*ft_strrchr(const char *str, int c)
 /*
 int	main(void)
 {
-	printf("%s\n", ft_strrchr("hola mundo", 'n'));
+	printf("%s\n", ft_strrchr("hola pepa", 'p'));
 	return (0);
 }
 */

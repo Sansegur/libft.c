@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/20 10:17:29 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/22 18:44:26 by sansegur         ###   ########.fr       */
+/*   Created: 2023/02/11 19:18:19 by sansegur          #+#    #+#             */
+/*   Updated: 2023/02/11 19:20:48 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strchr(const char *str, int c)
 /*
 int	main(void)
 {
-	printf("%s\n", ft_strchr("hola mundo", 'm'));
+	printf("%s\n", ft_strchr("hola pepa", 'p'));
 	return (0);
 }
 */
