@@ -6,7 +6,7 @@
 #    By: sansegur <sansegur@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 20:08:02 by sansegur          #+#    #+#              #
-#    Updated: 2023/02/13 16:18:04 by sansegur         ###   ########.fr        #
+#    Updated: 2023/02/18 17:08:47 by sansegur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ CFLAGS	=	-Wall -Werror -Wextra
 SRCS	=	ft_isalpha.c \
 		ft_isdigit.c \
 	   	ft_isalnum.c \
-	       	ft_isascii.c \
+	    ft_isascii.c \
 		ft_toupper.c \
 		ft_tolower.c \
 		ft_isprint.c \
@@ -33,7 +33,9 @@ SRCS	=	ft_isalpha.c \
 		ft_strlcpy.c \
 		ft_strlcat.c \
 		ft_atoi.c \
-		ft_calloc.c
+		ft_calloc.c \
+		ft_strdup.c \
+	   	ft_substr.c	
 OBJS	=	$(SRCS:.c=.o)
 INCDIR	=	-I ./
 RM	=	rm -f

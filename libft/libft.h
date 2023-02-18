@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 11:05:11 by sansegur          #+#    #+#             */
-/*   Updated: 2023/02/13 16:17:34 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/18 17:08:15 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,5 +41,7 @@ size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t		ft_strlcat(char *dst, const char *src, size_t size);
 int			ft_atoi(const char *str);
 void		*ft_calloc(size_t count, size_t size);
+char		*ft_strdup(const char *s1);
+char		*ft_substr(const char *s, unsigned int start, size_t len);
 
 #endif
