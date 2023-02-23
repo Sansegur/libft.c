@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 13:44:07 by sansegur          #+#    #+#             */
-/*   Updated: 2023/02/20 19:07:22 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/21 16:44:19 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_substr(const char *s, unsigned int start, size_t len)
 {
 	size_t	s_len;
-	char	*substr;
+	char	*new_str;
 	size_t	i;
 
 	if (!s)
@@ -26,34 +26,17 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 		len = s_len - start;
 	if (start >= s_len)
 	{
-		substr = (char *)malloc(1);
-		if (substr == NULL)
+		new_str = (char *)malloc(1);
+		if (new_str == NULL)
 			return (NULL);
-		substr[0] = '\0';
-		return (substr);
+		new_str[0] = '\0';
+		return (new_str);
 	}
-	substr = (char *)malloc(len + 1);
-	if (substr == NULL)
+	new_str = (char *)malloc(len + 1);
+	if (new_str == NULL)
 		return (NULL);
 	while (i++ < start)
 		s++;
-	ft_strlcpy(substr, s, len +1);
-	return (substr);
+	ft_strlcpy(new_str, s, len +1);
+	return (new_str);
 }
-{
-	size_t	i;
-	char	*new_s;
-
-	new_s = (char *)malloc(sizeof(char) * len + 1);
-	if (!s || !new_s)
-		return (NULL);
-	i = 0;
-	while (start < ft_strlen((char *)s) && s[start + i] && i < len)
-	{
-		new_s[i] = s[start + i];i
-		i++;
-	}
-	new_s[i] = '\0';
-	return (new_s);
-}
-
