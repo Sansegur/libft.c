@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 17:08:46 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/27 17:06:42 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/24 12:47:44 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-int	main(void)
-{
-	char	dst[10] = "adios";
-	
-	printf("%s\n", ft_memcpy(dst, "hola", 5));
-	return (0);
-}
-*/

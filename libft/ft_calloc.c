@@ -6,25 +6,19 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/13 14:48:15 by sansegur          #+#    #+#             */
-/*   Updated: 2023/02/13 15:01:54 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/24 13:58:31 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_calloc(size_t count, size_t size)
+void	*ft_calloc(size_t nobj, size_t size)
 {
-	size_t	i;
-	void	*ptr;
+	char	*s1;
 
-	i = 0;
-	ptr = malloc(count * size);
-	if (!ptr)
+	s1 = (char *)malloc(nobj * size);
+	if (s1 == NULL)
 		return (NULL);
-	while (i < (count * size))
-	{
-		((char *)ptr)[i] = 0;
-		i++;
-	}
-	return (ptr);
+	ft_bzero(s1, nobj * size);
+	return (s1);
 }

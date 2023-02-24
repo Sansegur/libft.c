@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 20:36:05 by sansegur          #+#    #+#             */
-/*   Updated: 2023/01/23 18:59:31 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/02/24 12:45:47 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-/*
-int	main(void)
-{
-	printf("%zu\n", ft_strlen("haciendo main"));
-	return (0);
-}
-*/
