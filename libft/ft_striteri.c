@@ -1,24 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: sansegur <sansegur@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/04 12:02:32 by sansegur          #+#    #+#             */
-/*   Updated: 2023/04/04 12:02:43 by sansegur         ###   ########.fr       */
+/*   Created: 2023/04/05 15:45:22 by sansegur          #+#    #+#             */
+/*   Updated: 2023/04/05 16:23:50 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <libft.h>
 
-void	*ft_calloc(size_t nobj, size_t size)
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	char	*s1;
+	size_t	i;
 
-	s1 = (char *)malloc(nobj * size);
-	if (s1 == NULL)
-		return (NULL);
-	ft_bzero(s1, nobj * size);
-	return (s1);
+	i = 0;
+	while (s[i] != '\0')
+	{
+		f(i, s + i);
+		i++;
+	}
 }
