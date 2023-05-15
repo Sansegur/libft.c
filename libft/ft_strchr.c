@@ -6,7 +6,7 @@
 /*   By: sansegur <sansegur@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 19:18:19 by sansegur          #+#    #+#             */
-/*   Updated: 2023/04/04 12:07:59 by sansegur         ###   ########.fr       */
+/*   Updated: 2023/05/15 14:40:24 by sansegur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,3 @@ char	*ft_strchr(const char *str, int c)
 	}
 	return ((char *)str);
 }
-/*
-int	main(void)
-{
-	printf("%s\n", ft_strchr("hola pepa", 'p'));
-	return (0);
-}
-*/
