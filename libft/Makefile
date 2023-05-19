@@ -6,7 +6,7 @@
 #    By: sansegur <sansegur@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/12 20:08:02 by sansegur          #+#    #+#              #
-#    Updated: 2023/05/15 12:23:49 by sansegur         ###   ########.fr        #
+#    Updated: 2023/05/19 11:52:38 by sansegur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,6 +37,8 @@ SRCS	=	ft_isalpha.c \
 		ft_strdup.c \
 	   	ft_substr.c \
 		ft_strjoin.c \
+		ft_strtrim.c \
+		ft_split.c \
 		ft_itoa.c \
 		ft_strmapi.c \
 		ft_striteri.c \
